@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 1rem;
+}
+
+.header button {
+ background: transparent;
+ border: none;
+ color: var(--Dark-grayish-blue);   
+}
+
+.header button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headerLeft span {
+  color: white;
+  background-color: var(--Blue);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.headerLeft h1 {
+  font-size: 1.5rem;
+}
+
+

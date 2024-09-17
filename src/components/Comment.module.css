@@ -1,0 +1,110 @@
+.comment {
+  width: 90%;
+  margin-inline: auto;
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--Dark-grayish-blue);
+}
+
+.newComment {
+  cursor: pointer;
+}
+
+.commentContainer {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.comment p {
+  line-height: 1.5;
+}
+
+.comment img {
+  max-width: 3rem;
+  aspect-ratio: 1/1;
+}
+
+.dotNew {
+  margin-left: 0.25rem;
+  color: var(--Red);
+  font-size: 1.5rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+}
+
+.timeAgo {
+  color: var(--Dark-grayish-blue);
+}
+
+.commentName {
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.commentName:hover {
+  color: var(--Blue);
+  cursor: pointer;
+}
+
+.additionalCommentContent {
+  border: 1px #eee solid;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  color: var(--Dark-grayish-blue);
+  line-height: 0.9;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+
+.additionalCommentContent:hover {
+  background-color: var(--Light-grayish-blue-2);
+  cursor: pointer;
+}
+
+.additImage {
+  transition: all 0.3s;
+  border-radius: inherit;
+  outline: 3px transparent solid;
+}
+
+.additImage:hover {
+  outline: 3px var(--Light-grayish-blue-2) solid;
+  cursor: pointer;
+}
+
+.highlightedGray {
+  color: var(--Dark-grayish-blue);
+}
+
+.highlightedBlue {
+  color: var(--Blue);
+}
+
+.highlightedBlue,
+.highlightedGray {
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.highlightedBlue:hover,
+.highlightedGray:hover {
+  color: var(--Blue);
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .commentContainer {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+  }
+}

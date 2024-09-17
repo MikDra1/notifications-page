@@ -1,0 +1,8 @@
+.comments {
+    display: grid;
+    gap: .5rem;
+    max-width: 45rem;
+    margin-inline: auto;
+    background-color: #fff;
+    padding-block: 1.5rem;
+}
